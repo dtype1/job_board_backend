@@ -1,0 +1,19 @@
+name: job_board_backend
+description: Back-end REST (Dart + shelf) della bacheca di annunci di lavoro.
+version: 1.0.0
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: ^3.13.7
+
+dependencies:
+  crypto: ^3.0.8
+  mime: ^2.1.0
+  path: ^1.9.1
+  shelf: ^1.4.2
+  shelf_router: ^1.1.2
+
+dev_dependencies:
+  http: ^1.2.2
+  lints: ^6.0.0
+  test: ^1.25.6
